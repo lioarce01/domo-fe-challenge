@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: bolder;
+}
+
+.hoverablenavbtn {
+  background-color: white;
+  color: #042d45;
+  border: 2px solid #042d45;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.1s ease;
+}
+
+.hoverablenavbtn:hover {
+  background-color: #042d45;
+  color: #ffff;
+}
+
+.hoverablenavbtn:active {
+  background-color: #042d45;
+  transform: scale(0.95);
+}
+
+.hoverablecontact,
+.hoverablesubmit {
+  background-color: white;
+  color: #042d45;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.1s ease;
+  border: 2px solid #042d45;
+}
+
+.hoverablecontact:hover,
+.hoverablesubmit:hover {
+  background-color: #042d45;
+  border-color: white;
+  border: 2px solid white;
+  color: #ffff;
+}
+
+.hoverablecontact:active {
+  transform: scale(0.95);
+}
+
+.hoverablesubmit:active {
+  background-color: #042d45;
+  transform: scale(0.95);
+}
+
+.nav-link {
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.1s ease;
+  color: #042d45;
+  border-radius: 10px;
+  outline: none;
+}
+
+.nav-link:hover {
+  color: #042d45;
+}
+
+.nav-link.active {
+  background-color: #edf1f5;
+  outline: none;
+  color: #042d45;
+  border-radius: 10px;
+}
+
+.custom-input::placeholder {
+  color: #042d45;
+  opacity: 1;
+}
+
+.custom-input:focus {
+  border-color: #042d45;
+  outline: none;
+  box-shadow: 0 0 1px rgba(4, 45, 69, 0.5);
+}
+
+.collapse {
+  background-color: #fff;
+}
