@@ -48,7 +48,7 @@ const FooterComponent = () => {
             <FaLinkedin size={24} />
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/lioarce01/domo-fe-challenge"
             target="_blank"
             rel="noopener noreferrer"
             style={{
