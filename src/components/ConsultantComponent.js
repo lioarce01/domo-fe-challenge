@@ -51,7 +51,7 @@ const ConsultantComponent = () => {
             style={{
               borderTop: "1px solid #5c748f",
               paddingTop: "30px",
-              width: "70%",
+              width: "75%",
               margin: "auto",
             }}
           >

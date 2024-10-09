@@ -14,11 +14,26 @@ const FooterComponent = () => {
         width: "100%",
       }}
     >
-      <div className="container">
+      <div
+        className="container"
+        style={{
+          justifyContent: "space-between",
+          alignItems: "center",
+          paddingInline: "10px",
+        }}
+      >
+        <div>
+          <p style={{ fontWeight: "normal" }}>
+            El sitio web fue creado con react + react bootstrap, utilizando
+            componentes, clases de bootstrap, css e inline-css. Se recreo tal
+            cual con algunos agregados + responsive design en la mayoria de los
+            dispositivos.
+          </p>
+        </div>
         <div>
           <h5 style={{ margin: "10px 0" }}>Connect with me</h5>
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/lionel-arce/"
             target="_blank"
             rel="noopener noreferrer"
             style={{
